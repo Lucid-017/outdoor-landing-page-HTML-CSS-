@@ -516,7 +516,15 @@ nav{
         text-transform: capitalize;
         font-size: 2rem;
     }
-    
+    /* .begin-adventure::before{
+        left: 0;
+        top: 0;
+        height: 22.7rem;
+        background:url(/images/wave-large.png) center no-repeat;
+        background-size:cover;
+        width: 100%;
+
+    } */
     .hero{
         height: 90vh;
     }
