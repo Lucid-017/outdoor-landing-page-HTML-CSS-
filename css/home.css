@@ -145,7 +145,7 @@ nav{
 }
 .main-message p{
     text-transform: lowercase;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .main-message h1{
     font-family: Major Mono Display;
@@ -193,7 +193,8 @@ nav{
     color: rgba(0,0,0,0.7);
 }
 .title-heading p{
-    text-transform: lowercase;
+    text-transform: capitalize;
+    font-size: 1.5rem;
 }
 
 .title-heading h3{
@@ -201,7 +202,7 @@ nav{
 }
 .title-heading h1{
     font-family: Major Mono Display;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: .5rem 0 1rem;
 }
 .activities-grid{
