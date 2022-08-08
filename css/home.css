@@ -255,7 +255,7 @@ nav{
     background: url(/images/camping.jpg) center no-repeat;
 }
 .activities-grid-item h1{
-    text-transform: capitalize;
+    
     font-family: dancing script;
     font-size: 3rem;
     margin: 1.5rem 0;
