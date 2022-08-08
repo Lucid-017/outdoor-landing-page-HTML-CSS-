@@ -129,7 +129,6 @@ nav{
     background-size: cover;
 }
 .main-message{
-    max-width: 80%;
     text-transform: uppercase;
     color: whitesmoke;
     transform: translateY(20%);
@@ -140,7 +139,7 @@ nav{
 
 }
 .main-message h3{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 .main-message p{
     text-transform: lowercase;
@@ -148,7 +147,7 @@ nav{
 }
 .main-message h1{
     font-family: Major Mono Display;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 1rem 0;
 }
 
