@@ -177,7 +177,7 @@ nav{
 }
 .experience-outdoors .title-heading p{
     text-transform: capitalize;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .experience-outdoors .title-heading h1{
@@ -192,16 +192,15 @@ nav{
     color: rgba(0,0,0,0.7);
 }
 .title-heading p{
-    text-transform: capitalize;
-    font-size: 1.4rem;
+    text-transform: lowercase;
 }
 
 .title-heading h3{
-    font-size: 2.5rem;
+    font-size: 1.4rem;
 }
 .title-heading h1{
     font-family: Major Mono Display;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: .5rem 0 1rem;
 }
 .activities-grid{
