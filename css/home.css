@@ -553,7 +553,7 @@ nav{
         -ms-transition: background 650ms ;
         -o-transition: background 650ms ;
     }
-    .begin-adventure::before{
+    /* .begin-adventure::before{
         content: "";
         position: absolute;
         top: 261%;
@@ -562,7 +562,7 @@ nav{
         height: 22.7rem;
         background:url(/images/wave-large.png) center no-repeat;
         background-size:cover;
-    }
+    } */
     .testimonials{
         height: 100vh;
     }
