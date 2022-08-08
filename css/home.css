@@ -104,7 +104,7 @@ nav{
     padding: 1.5rem 0;
 }
 .nav-link{/*the navigation 'a' elements*/
-    font-size: 1.6rem !important;
+    font-size: 1.4rem !important;
     text-transform: uppercase;
     color: rgba(2, 2, 2, 0.589);
 }
