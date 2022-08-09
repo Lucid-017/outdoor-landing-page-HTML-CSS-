@@ -53,12 +53,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding-top: 1.5rem;
     border-bottom: 1px solid rgba(245, 245, 245, 0.651);
 }
 .nav-brand .logo{
-    /*thelogo*/font-size: 3rem;
-    color: whitesmoke;
+    /*thelogo*/width: 60px;
     transition: font-size 400ms;
     -webkit-transition: font-size 400ms;
     -moz-transition: font-size 400ms;
@@ -101,12 +100,21 @@ nav{
     right: 0;
 }
 .nav-item{/*the navigation li elements */
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 }
 .nav-link{/*the navigation 'a' elements*/
     font-size: 1.4rem !important;
     text-transform: uppercase;
     color: rgba(2, 2, 2, 0.589);
+}
+.flex{
+    display: flex;
+    gap:20px;
+    
+}
+.flex img{
+    justify-content: center;
+    width: 50px;
 }
 
 .hero{
@@ -233,12 +241,11 @@ nav{
     background-position: center;
     z-index: -1;
 }
-.activities-grid-item i{
-    font-size: 2rem;
-    color: rgba(64,47,118,0.9);
+.activities-grid-item .i{
     background-color:rgba(232,97,136,0.9) ;
-    width: 8%;
-    padding-left: .4rem;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
     border-radius: 100rem;
     -webkit-border-radius: 100rem;
     -moz-border-radius: 100rem;
@@ -251,6 +258,7 @@ nav{
 .hiking{
     background: url(/images/hiking.jpg) center no-repeat;
 }
+/* .activities-grid svg{color: wheat !important;} */
 .camping{
     background: url(/images/camping.jpg) center no-repeat;
 }
@@ -342,18 +350,21 @@ nav{
         max-width: 60rem;
         
 }
+.adventure-grid{
+    text-center
+    }
 .hero{
     height: 90vh;
 }
-.activities-grid-item i{
+.activities-grid-item .i{
     font-size: 2.5rem;
-    width: 11%;
-    padding-left: .3rem;
-    border-radius: 45%;
-    -webkit-border-radius: 45%;
-    -moz-border-radius: 45%;
-    -ms-border-radius: 45%;
-    -o-border-radius: 45%;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.activities-grid-item img{
+    width: 40px;
+    padding: 0 auto;
 }
 
     }
@@ -384,14 +395,13 @@ nav{
 
     }
     .activities-grid-item i{
-        font-size: 2.5rem;
-        width: 9%;
-        padding-left: .5rem;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
+}
+    .activities-grid-item img{
+        width: 40px;
+        padding: 0 auto;
 }
     
 }
@@ -533,13 +543,13 @@ nav{
     }
     .activities-grid-item i{
         font-size: 2.5rem;
-        width: 15%;
-        padding-left: .6rem;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
+}
+    .activities-grid-item img{
+        width: 45px;
+        padding: 0 auto;
 }
 }
 @media screen and (min-width:1200px){
@@ -577,12 +587,12 @@ nav{
     }
     .activities-grid-item i{
         font-size: 2.5rem;
-        width: 15%;
-        padding-left: .6rem;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
+}
+    .activities-grid-item img{
+        width: 45px;
+        padding: 0 auto;
 }
 }
